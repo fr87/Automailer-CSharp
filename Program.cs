@@ -10,7 +10,7 @@ namespace Automailer
             try
             {
                 String Date = DateTime.Today.ToString("dd.MM");
-                string Content = "Subject";
+                string Content = "Content";
                 
                 MailMessage msg = new MailMessage();
                 
