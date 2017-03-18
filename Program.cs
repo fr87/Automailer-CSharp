@@ -10,7 +10,7 @@ namespace Automailer
             try
             {
                 String Date = DateTime.Today.ToString("dd.MM");
-                string Content = "Der Artikel-Bericht für den " + Date + " wurde erfolgreich erstellt und befindet sich im Anhang.";
+                string Content = "Subject";
                 
                 MailMessage msg = new MailMessage();
                 
